@@ -9,13 +9,15 @@ import {
   Upload,
   Settings,
   Menu,
-  X
+  X,
+  BookOpen
 } from 'lucide-react'
 import { useState } from 'react'
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: LayoutDashboard },
   { name: 'Kunden', href: '/kunden', icon: Users },
+  { name: 'Leistungskatalog', href: '/katalog', icon: BookOpen },
   { name: 'Material', href: '/material', icon: Package },
   { name: 'Dienstleistungen', href: '/dienstleistungen', icon: Wrench },
   { name: 'Mitarbeiter', href: '/mitarbeiter', icon: UserCog },
