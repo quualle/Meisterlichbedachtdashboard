@@ -10,13 +10,15 @@ import {
   Settings,
   Menu,
   X,
-  BookOpen
+  BookOpen,
+  ClipboardList
 } from 'lucide-react'
 import { useState } from 'react'
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: LayoutDashboard },
   { name: 'Kunden', href: '/kunden', icon: Users },
+  { name: 'Regieberichte', href: '/regieberichte', icon: ClipboardList },
   { name: 'Leistungskatalog', href: '/katalog', icon: BookOpen },
   { name: 'Material', href: '/material', icon: Package },
   { name: 'Dienstleistungen', href: '/dienstleistungen', icon: Wrench },

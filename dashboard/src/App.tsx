@@ -9,6 +9,7 @@ import { Invoices } from './pages/Invoices'
 import { Documents } from './pages/Documents'
 import { Settings } from './pages/Settings'
 import { Catalog } from './pages/Catalog'
+import { Regieberichte } from './pages/Regieberichte'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<Dashboard />} />
           <Route path="kunden" element={<Customers />} />
           <Route path="katalog" element={<Catalog />} />
+          <Route path="regieberichte" element={<Regieberichte />} />
           <Route path="material" element={<Materials />} />
           <Route path="dienstleistungen" element={<Services />} />
           <Route path="mitarbeiter" element={<Employees />} />
